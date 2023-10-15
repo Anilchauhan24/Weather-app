@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="weather.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/84658900e7.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="grid">
+            <div class="main">
+                <input type="text" id="inp" value="" placeholder="Enter Location">
+                <button onclick="func()"><i class="fa-solid fa-magnifying-glass"></i></button>
+            </div>
+            <h2 id="city"></h2>
+            <h3 id="temp"></h3>
+            <h4 id="hum"></h4>
+            <div>
+                <i class="fa-solid fa-cloud"></i>
+                <h4 id="type"></h4>
+            </div>
+           
+            <h4 id="wind"></h4>
+        </div>
+    </div>
+
+    <hr>
+   
+    <script src="weather.js"></script>
+</body>
+
+</html>
